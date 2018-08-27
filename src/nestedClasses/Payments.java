@@ -76,7 +76,32 @@ public class Payments {
         public long getAccountNumber() {
             return accountNumber;
         }
+
+        public void makePayment(){
+
+            switch (vendor){
+                case CITI:
+                    System.out.println( vendor +"made payment of "+Payments.this.getAmount()+" from account# "+ this.getAccountNumber());
+                    break;
+                case Visa:
+                    System.out.println( vendor +"made payment of "+Payments.this.getAmount()+" from account# "+ this.getAccountNumber());
+                    break;
+                case Master:
+                    System.out.println( vendor +"made payment of "+Payments.this.getAmount()+" from account# "+ this.getAccountNumber());
+                    break;
+                case Discover:
+                    System.out.println( vendor +"made payment of "+Payments.this.getAmount()+" from account# "+ this.getAccountNumber());
+                    break;
+                case CAPITALONE:
+                    System.out.println( vendor +"made payment of "+Payments.this.getAmount()+" from account# "+ this.getAccountNumber());
+                    break;
+                case AMERICANEXP:
+                    System.out.println( vendor +"made payment of "+Payments.this.getAmount()+" from account# "+ this.getAccountNumber());
+                    break;
+            }
+        }
     }
-
-
 }
+
+
+
