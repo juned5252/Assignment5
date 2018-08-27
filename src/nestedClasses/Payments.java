@@ -24,6 +24,32 @@ public class Payments {
         return amount;
     }
 
+    private class Debit{
+
+        private int routingNumber;
+        private String bank;
+
+        public String getBank() {
+            return bank;
+        }
+
+        public void setBank(String bank) {
+            this.bank = bank;
+        }
+
+        public int getRoutingNumber() {
+            return routingNumber;
+        }
+
+        public void setRoutingNumber(int routingNumber) {
+            this.routingNumber = routingNumber;
+        }
+
+        public void makePayment(){
+            System.out.println("payment made for the amount: "+Payments.this.getAmount()+" from routing number: " + this.routingNumber );
+        }
+
+    }
 
 
 
