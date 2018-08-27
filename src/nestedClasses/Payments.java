@@ -26,8 +26,17 @@ public class Payments {
 
     private class Debit{
 
-        private int routingNumber;
+        private long routingNumber;
         private String bank;
+
+        public Debit() {
+        }
+
+        public Debit(int routingNumber,String bank) {
+            this.routingNumber = routingNumber;
+            this.bank = bank;
+        }
+
 
         public String getBank() {
             return bank;
@@ -37,7 +46,7 @@ public class Payments {
             this.bank = bank;
         }
 
-        public int getRoutingNumber() {
+        public long getRoutingNumber() {
             return routingNumber;
         }
 
@@ -50,7 +59,24 @@ public class Payments {
         }
 
     }
+    private class Credit{
 
+         Companies vendor;
+         private long accountNumber;
+
+        public Credit(Companies vendor, long accountNumber) {
+            this.vendor = vendor;
+            this.accountNumber = accountNumber;
+        }
+
+        public Credit(){
+
+        }
+
+        public long getAccountNumber() {
+            return accountNumber;
+        }
+    }
 
 
 }
