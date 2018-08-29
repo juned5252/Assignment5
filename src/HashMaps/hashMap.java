@@ -15,7 +15,7 @@ public class hashMap {
         nameNage.put("javid",17);
         nameNage.put("kashfia", 15);
 
-        for (Map.Entry en: nameNage.entrySet()) {
+        for (Map.Entry<String,Integer> en: nameNage.entrySet()) {
             System.out.println(en);
         }
 
