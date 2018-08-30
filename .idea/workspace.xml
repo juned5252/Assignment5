@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b11d1d8-358c-4aa1-9d8f-6b08a46f6d14" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Grocerylist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BufferReaderNfilleReader/bfNfr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQues/QDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StacksNQues/StackDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,48 +28,47 @@
         <counts>
           <entry key="GroceryList" value="1" />
           <entry key="Grocerylist" value="1" />
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="GroceryList" value="65" />
-          <entry key="java" value="3171" />
+          <entry key="Grocerylist" value="2" />
+          <entry key="dummy" value="5" />
+          <entry key="java" value="3262" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3171" />
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="JAVA" value="3262" />
+          <entry key="PLAIN_TEXT" value="72" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BufferReaderNfilleReader/bfNfr.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StacksNQues/StackDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Grocerylist">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/StacksNQues/QDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="330">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,8 +104,10 @@
         <option value="$PROJECT_DIR$/src/HashMaps/hashMap.java" />
         <option value="$PROJECT_DIR$/src/HashMaps/hashMapList.java" />
         <option value="$PROJECT_DIR$/src/BufferReaderNfilleReader/GroceryList" />
-        <option value="$PROJECT_DIR$/Grocerylist" />
         <option value="$PROJECT_DIR$/src/BufferReaderNfilleReader/bfNfr.java" />
+        <option value="$PROJECT_DIR$/Grocerylist" />
+        <option value="$PROJECT_DIR$/src/StacksNQues/sNqDemo.java" />
+        <option value="$PROJECT_DIR$/src/StacksNQues/QDemo.java" />
       </list>
     </option>
   </component>
@@ -135,6 +137,12 @@
               <item name="HomeWork5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HomeWork5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeWork5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="StacksNQues" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -145,7 +153,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535639194467" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535640904347" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
@@ -160,20 +168,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.bfNfr">
+  <component name="RunManager" selected="Application.QDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArraysDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysTraversal.ArraysDemo" />
+    <configuration name="QDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQues.QDemo" />
       <module name="HomeWork5" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArraysTraversal.*" />
+          <option name="PATTERN" value="StacksNQues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StacksNQues.StackDemo" />
+      <module name="HomeWork5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StacksNQues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,20 +205,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arrayListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListDemo.arrayListMain" />
-      <module name="HomeWork5" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayListDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,19 +275,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArraysDemo" />
-      <item itemvalue="Application.arrayListMain" />
       <item itemvalue="Application.hashMap" />
       <item itemvalue="Application.hashMapList" />
       <item itemvalue="Application.bfNfr" />
+      <item itemvalue="Application.StackDemo" />
+      <item itemvalue="Application.QDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QDemo" />
+        <item itemvalue="Application.StackDemo" />
         <item itemvalue="Application.bfNfr" />
         <item itemvalue="Application.hashMap" />
         <item itemvalue="Application.hashMapList" />
-        <item itemvalue="Application.arrayListMain" />
-        <item itemvalue="Application.ArraysDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +308,7 @@
     <frame x="642" y="0" width="638" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.087248325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1409396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,7 +317,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -425,17 +433,31 @@
     <entry file="file://$PROJECT_DIR$/Grocerylist">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BufferReaderNfilleReader/bfNfr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="304">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksNQues/StackDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StacksNQues/QDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
